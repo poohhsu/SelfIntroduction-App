@@ -1,0 +1,101 @@
+@font-face{
+    font-family: 源流明朝;
+    src: url(./src/GenRyuMin-B.ttc);
+}
+
+@font-face{
+    font-family: 源柔;
+    src: url(./src/GenJyuuGothic-Normal.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+    padding: 0.5em 1em 0 4em;
+    font-family: 源流明朝;
+}
+
+#header .info{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header a{
+    text-decoration: none;
+    color: black;
+}
+
+#header .social_media{
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .fb, .twitter, .share{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 1.5em;
+}
+
+#header .fb{
+    background-image: url(./src/右上選單fb.png);
+}
+
+#header .twitter{
+    background-image: url(./src/右上選單twitter.png);
+}
+
+#header .share{
+    background-image: url(./src/右上選單share.png);
+}
+
+#intro{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro .line{
+    width: 20%;
+    border-bottom: 2px solid #F7D089;
+}
+
+#intro .text{
+    width: 30%;
+    padding: 1em 0 1em;
+    text-align: center;
+    line-height: 1.5em;
+    border-bottom: 2px solid #F7D089;
+    font-family: 源柔;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #F7D089;
+    text-align: center;
+}
+
+#footer .copyright{
+    padding-top: 1em;
+    font-size: 8px;
+    color: #72726C;
+    font-family: 源柔;
+}
