@@ -49,15 +49,15 @@
 }
 
 #header .fb{
-    background-image: url(./src/右上選單fb.png);
+    background-image: url(./src/menu-fb.png);
 }
 
 #header .twitter{
-    background-image: url(./src/右上選單twitter.png);
+    background-image: url(./src/menu-twitter.png);
 }
 
 #header .share{
-    background-image: url(./src/右上選單share.png);
+    background-image: url(./src/menu-share.png);
 }
 
 #intro{
