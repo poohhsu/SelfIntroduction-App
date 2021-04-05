@@ -21,6 +21,7 @@ p {
 
 #member h3 {
     font-family: Medium;
+    margin:10%;
 }
 
 #menu{
@@ -76,12 +77,15 @@ p {
 }
 
 .text_personality{
-    width: 80%;
+    width: 85%;
     height: auto;
+    margin-top:15%;
+    margin-bottom:5%;
+
 }
 
 .pic_personality{
-    width: 90%;;
+    width: 95%;;
     height: auto;
 }
 
