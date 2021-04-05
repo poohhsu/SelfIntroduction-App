@@ -24,11 +24,7 @@
 
 div.scroll {
     /* Adjust this to fit */
-    position: relative;
-    margin-left: 800px;
-    top: 50px;
-    height: 600px;
-    width: 55%;
+    width: 50%;
     padding-left: 5%;
     padding-right: 5%;
     overflow-y: scroll;
