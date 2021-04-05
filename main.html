@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="scroll.css">
     <link rel="stylesheet" href="team_member.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
 </head>
 
 <body>
@@ -25,17 +27,22 @@
             <a href="" class="twitter"></a>
             <a href="" class="share"></a>
         </div>
-
     </div>
 
     <div id="photo">
-        <div class="member1"><img src="src/1.png" onmouseover="this.src='src/1_color.png'" onmouseout="this.src='src/1.png'" height="100%" width="100%"></div>
-        <div class="member2"><img src="src/2.png" onmouseover="this.src='src/2_color.png'" onmouseout="this.src='src/2.png'" height="100%" width="100%"></div>
-        <div class="member3"><img src="src/3.png" onmouseover="this.src='src/3_color.png'" onmouseout="this.src='src/3.png'" height="100%" width="100%"></div>
-        <div class="member4"><img src="src/4.png" onmouseover="this.src='src/4_color.png'" onmouseout="this.src='src/4.png'" height="100%" width="100%"></div>
-        <div class="member5"><img src="src/5.png" onmouseover="this.src='src/5_color.png'" onmouseout="this.src='src/5.png'" height="100%" width="100%"></div>
-        <div class="member6"><img src="src/6.png" onmouseover="this.src='src/6_color.png'" onmouseout="this.src='src/6.png'" height="100%" width="100%"></div>
-        <div class="member7"><img src="src/7.png" onmouseover="this.src='src/7_color.png'" onmouseout="this.src='src/7.png'" height="100%" width="100%"></div>
+        <div class="bottons">
+            <img src="./src/左鍵.png" class="prev" width="5%">
+            <img src="./src/右鍵.png" class="next" width="5%">
+        </div>
+        <div class="photos">
+            <div class="member1"><img src="src/1.png" onmouseover="this.src='src/1_color.png'" onmouseout="this.src='src/1.png'" height="100%" width="100%"></div>
+            <div class="member2"><img src="src/2.png" onmouseover="this.src='src/2_color.png'" onmouseout="this.src='src/2.png'" height="100%" width="100%"></div>
+            <div class="member3"><img src="src/3.png" onmouseover="this.src='src/3_color.png'" onmouseout="this.src='src/3.png'" height="100%" width="100%"></div>
+            <div class="member4"><img src="src/4.png" onmouseover="this.src='src/4_color.png'" onmouseout="this.src='src/4.png'" height="100%" width="100%"></div>
+            <div class="member5"><img src="src/5.png" onmouseover="this.src='src/5_color.png'" onmouseout="this.src='src/5.png'" height="100%" width="100%"></div>
+            <div class="member6"><img src="src/6.png" onmouseover="this.src='src/6_color.png'" onmouseout="this.src='src/6.png'" height="100%" width="100%"></div>
+            <div class="member7"><img src="src/7.png" onmouseover="this.src='src/7_color.png'" onmouseout="this.src='src/7.png'" height="100%" width="100%"></div>
+        </div>
     </div>
 
     <div id="intro">
@@ -52,48 +59,52 @@
         <img src="./src/team_member.png" width="500">
     </div>
     <div id="member">
-        <div class="menu">
-
-            <div class="one">
-                <img src="./src/藝術家h2_小萱.png" width="150">
-                <h3>莊小萱</h3>
+        <div id="menu">
+            <div class="top">
+                <div class="person one">
+                    <img src="./src/藝術家h2_小萱.png" width="150">
+                    <h3>莊小萱</h3>
+                </div>
+                <div class="person two">
+                    <img src="./src/哲學家h2_詩鏇.png" width="150">
+                    <h3>周詩鏇</h3>
+                </div>
+                <div class="person three">
+                    <img src="./src/檢查員2h2_松穎.png" width="150">
+                    <h3>江松穎</h3>
+                </div>
             </div>
-            <div class="two">
-                <img src="./src/哲學家h2_詩鏇.png" width="150">
-                <h3>周詩鏇</h3>
+            <div class="bottom">
+                <div class="person four">
+                    <img src="./src/檢查員1h2_育騰.png" width="150">
+                    <h3>許育騰</h3>
+                </div>
+                <div class="person five">
+                    <img src="./src/手工者h2_青宇.png" width="150">
+                    <h3>鄭青宇</h3>
+                </div>
+                <div class="person six">
+                    <img src="./src/啟發者h2_新皓.png" width="150">
+                    <h3>何新皓</h3>
+                </div>
+                <div class="person seven">
+                    <img src="./src/思考者h2_育誠.png" width="150">
+                    <h3>劉育誠</h3>
+                </div>
             </div>
-            <div class="three">
-                <img src="./src/檢查員2h2_松穎.png" width="150">
-                <h3>江松穎</h3>
-            </div>
-            <div class="four">
-                <img src="./src/檢查員1h2_育騰.png" width="150">
-                <h3>許育騰</h3>
-            </div>
-            <div class="five">
-                <img src="./src/手工者h2_青宇.png" width="150">
-                <h3>鄭青宇</h3>
-            </div>
-            <div class="six">
-                <img src="./src/啟發者h2_新皓.png" width="150">
-                <h3>何新皓</h3>
-            </div>
-            <div class="seven">
-                <img src="./src/思考者h2_育誠.png" width="150">
-                <h3>劉育誠</h3>
-            </div>
-
         </div>
 
         <div class="jhuang">
             <div class="back_button">
-                <img src="./src/色塊中的往回鍵.png" width="80">
+                <img src="./src/色塊中的往回鍵.png">
             </div>
-            <div class="text_personality">
-                <img src="./src/人格代表.png" height="40">
-            </div>
-            <div class="pic_personality">
-                <img src="./src/哲學家.png" width="500">
+            <div class="left">
+                <div class="text_personality">
+                    <img src="./src/人格代表.png">
+                </div>
+                <div class="pic_personality">
+                    <img src="./src/哲學家.png">
+                </div>
             </div>
             <div id="scroll-0" class="scroll">
                 <div class="name">莊&emsp;&ensp;小 萱</div>
@@ -159,13 +170,15 @@
 
         <div class="jhou">
             <div class="back_button">
-                <img src="./src/色塊中的往回鍵.png" width="80">
+                <img src="./src/色塊中的往回鍵.png">
             </div>
-            <div class="text_personality">
-                <img src="./src/人格代表.png" height="40">
-            </div>
-            <div class="pic_personality">
-                <img src="./src/藝術家.png" width="500">
+            <div class="left">
+                <div class="text_personality">
+                    <img src="./src/人格代表.png">
+                </div>
+                <div class="pic_personality">
+                    <img src="./src/藝術家.png">
+                </div>
             </div>
             <div id="scroll-0" class="scroll">
                 <div class="name">周&emsp;&ensp;詩 鏇</div>
@@ -229,13 +242,15 @@
 
         <div class="jiang">
             <div class="back_button">
-                <img src="./src/色塊中的往回鍵.png" width="80">
+                <img src="./src/色塊中的往回鍵.png">
             </div>
-            <div class="text_personality">
-                <img src="./src/人格代表.png" height="40">
-            </div>
-            <div class="pic_personality">
-                <img src="./src/檢查員.png" width="500">
+            <div class="left">
+                <div class="text_personality">
+                    <img src="./src/人格代表.png">
+                </div>
+                <div class="pic_personality">
+                    <img src="./src/檢查員.png">
+                </div>
             </div>
             <div id="scroll-0" class="scroll">
                 <div class="name">江&emsp;&ensp;松 穎</div>
@@ -300,13 +315,15 @@
 
         <div class="syu">
             <div class="back_button">
-                <img src="./src/色塊中的往回鍵.png" width="80">
+                <img src="./src/色塊中的往回鍵.png">
             </div>
-            <div class="text_personality">
-                <img src="./src/人格代表.png" height="40">
-            </div>
-            <div class="pic_personality">
-                <img src="./src/檢查員2.png" width="500">
+            <div class="left">
+                <div class="text_personality">
+                    <img src="./src/人格代表.png">
+                </div>
+                <div class="pic_personality">
+                    <img src="./src/檢查員2.png">
+                </div>
             </div>
             <div id="scroll-0" class="scroll">
                 <div class="name">許&emsp;&ensp;育 騰</div>
@@ -370,13 +387,15 @@
 
         <div class="jheng">
             <div class="back_button">
-                <img src="./src/色塊中的往回鍵.png" width="80">
+                <img src="./src/色塊中的往回鍵.png">
             </div>
-            <div class="text_personality">
-                <img src="./src/人格代表.png" height="40">
-            </div>
-            <div class="pic_personality">
-                <img src="./src/手工者.png" width="500">
+            <div class="left">
+                <div class="text_personality">
+                    <img src="./src/人格代表.png">
+                </div>
+                <div class="pic_personality">
+                    <img src="./src/手工者.png">
+                </div>
             </div>
             <div id="scroll-0" class="scroll">
                 <div class="name">鄭&emsp;&ensp;青 宇</div>
@@ -441,13 +460,15 @@
 
         <div class="he">
             <div class="back_button">
-                <img src="./src/色塊中的往回鍵.png" width="80">
+                <img src="./src/色塊中的往回鍵.png">
             </div>
-            <div class="text_personality">
-                <img src="./src/人格代表.png" height="40">
-            </div>
-            <div class="pic_personality">
-                <img src="./src/啟發者.png" width="500">
+            <div class="left">
+                <div class="text_personality">
+                    <img src="./src/人格代表.png">
+                </div>
+                <div class="pic_personality">
+                    <img src="./src/啟發者.png">
+                </div>
             </div>
             <div id="scroll-0" class="scroll">
                 <div class="name">何&emsp;&ensp;新 皓</div>
@@ -512,13 +533,15 @@
 
         <div class="liu">
             <div class="back_button">
-                <img src="./src/色塊中的往回鍵.png" width="80">
+                <img src="./src/色塊中的往回鍵.png">
             </div>
-            <div class="text_personality">
-                <img src="./src/人格代表.png" height="40">
-            </div>
-            <div class="pic_personality">
-                <img src="./src/思考者.png" width="500">
+            <div class="left">
+                <div class="text_personality">
+                    <img src="./src/人格代表.png">
+                </div>
+                <div class="pic_personality">
+                    <img src="./src/思考者.png">
+                </div>
             </div>
             <div id="scroll-0" class="scroll">
                 <div class="name">劉&emsp;&ensp;育 誠</div>
@@ -592,7 +615,10 @@
         </div>
     </div>
 
-    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
