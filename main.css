@@ -20,12 +20,14 @@
     justify-content: space-between;
     width: 100%;
     height: 5vh;
+    max-height: 5vw;
     padding: 0.5em 1em 0 4em;
     font-family: GenRyuMin;
 }
 
 #header .info{
     width: 18%;
+    min-width: 12vh;
     display: flex;
     justify-content: space-between;
 }
@@ -37,6 +39,7 @@
 
 #header .social_media{
     width: 9%;
+    min-width: 6vh;
     display: flex;
     justify-content: space-between;
 }
@@ -60,15 +63,29 @@
     background-image: url(./src/menu-share.png);
 }
 
-.buttons{
+#about_us {
+    margin-top: 4%;
+    text-align: center;
+}
+
+#photo{
+    position: relative;
+}
+
+#photo .prev{
     z-index: 10;
-    width: 96%;
     position: absolute;
-    top: 22vw;
+    top: 43%;
     left: 2%;
+    cursor: pointer;
+}
+
+#photo .next{
+    z-index: 10;
+    position: absolute;
+    top: 43%;
     right: 2%;
-    display: flex;
-    justify-content: space-between;
+    cursor: pointer;
 }
 
 .buttons img{
@@ -87,9 +104,14 @@
     overflow: hidden;
 }
 
+.member1, .member2, .member3, .member4, .member5, .member6, .member7{
+    padding: 5%;
+}
+
 #intro{
     width: 100%;
-    height: 35vh;
+    height: 40vh;
+    max-height: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,11 +120,13 @@
 
 #intro .line{
     width: 20%;
+    min-width: 240px;
     border-bottom: 2px solid #F7D089;
 }
 
 #intro .text{
     width: 30%;
+    min-width: 360px;
     padding: 1em 0 1em;
     text-align: center;
     line-height: 1.5em;
@@ -116,8 +140,10 @@
     align-items: center;
     width: 100%;
     height: 10vh;
+    max-height: 10vw;
     background-color: #F7D089;
     text-align: center;
+	margin-top: 5%;
 }
 
 #footer .copyright{
@@ -125,7 +151,6 @@
     font-size: 8px;
     color: #72726C;
     font-family: GenRyuGothic;
-	margin-top:20%;
 }
 
 #member #menu .top .person_one img:hover{transform:scale(1.2,1.2);cursor:pointer}
