@@ -125,4 +125,20 @@
     font-size: 8px;
     color: #72726C;
     font-family: GenRyuGothic;
+	margin-top:20%;
 }
+
+#member #menu .top .person_one img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member #menu .top .person_two img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member #menu .top .person_three img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member #menu .bottom .person_four img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member #menu .bottom .person_five img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member #menu .bottom .person_six img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member #menu .bottom .person_seven img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member .jhuang .back_button img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member .jhou .back_button img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member .jiang .back_button img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member .syu .back_button img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member .jheng .back_button img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member .he .back_button img:hover{transform:scale(1.2,1.2);cursor:pointer}
+#member .liu .back_button img:hover{transform:scale(1.2,1.2);cursor:pointer}
