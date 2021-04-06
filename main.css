@@ -125,6 +125,7 @@
     font-size: 8px;
     color: #72726C;
     font-family: GenRyuGothic;
+	margin-top:20%;
 }
 
 #member #menu .top .person_one img:hover{transform:scale(1.2,1.2);cursor:pointer}
