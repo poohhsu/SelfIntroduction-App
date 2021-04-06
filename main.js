@@ -21,6 +21,7 @@ $(document).ready(function() {
 	$('#member .liu').css('display', 'none');
 	
 	$('#member #menu .top .person_one').click((event) =>{
+		$('#member #menu').css('display', 'none');
 		$('#member .jhuang').css('display', 'block');
 		$('#member .jhou').css('display', 'none');
 		$('#member .jiang').css('display', 'none');
@@ -29,11 +30,13 @@ $(document).ready(function() {
 		$('#member .he').css('display', 'none');
 		$('#member .liu').css('display', 'none');
 		$('#member .jhuang .back_button').click((event) =>{
+			$('#member #menu').css('display', 'block');
 			$('#member .jhuang').css('display', 'none');
 		})
 	})
 	
 	$('#member #menu .top .person_two').click((event) =>{
+		$('#member #menu').css('display', 'none');
 		$('#member .jhuang').css('display', 'none');
 		$('#member .jhou').css('display', 'block');
 		$('#member .jiang').css('display', 'none');
@@ -42,11 +45,13 @@ $(document).ready(function() {
 		$('#member .he').css('display', 'none');
 		$('#member .liu').css('display', 'none');
 		$('#member .jhou .back_button').click((event) =>{
+			$('#member #menu').css('display', 'block');
 			$('#member .jhou').css('display', 'none');
 		})
 	})
 	
 	$('#member #menu .top .person_three').click((event) =>{
+		$('#member #menu').css('display', 'none');
 		$('#member .jhuang').css('display', 'none');
 		$('#member .jhou').css('display', 'none');
 		$('#member .jiang').css('display', 'block');
@@ -55,11 +60,13 @@ $(document).ready(function() {
 		$('#member .he').css('display', 'none');
 		$('#member .liu').css('display', 'none');
 		$('#member .jiang .back_button').click((event) =>{
+			$('#member #menu').css('display', 'block');
 			$('#member .jiang').css('display', 'none');
 		})
 	})
 	
 	$('#member #menu .bottom .person_four').click((event) =>{
+		$('#member #menu').css('display', 'none');
 		$('#member .jhuang').css('display', 'none');
 		$('#member .jhou').css('display', 'none');
 		$('#member .jiang').css('display', 'none');
@@ -68,11 +75,13 @@ $(document).ready(function() {
 		$('#member .he').css('display', 'none');
 		$('#member .liu').css('display', 'none');
 		$('#member .syu .back_button').click((event) =>{
+			$('#member #menu').css('display', 'block');
 			$('#member .syu').css('display', 'none');
 		})
 	})
 	
 	$('#member #menu .bottom .person_five').click((event) =>{
+		$('#member #menu').css('display', 'none');
 		$('#member .jhuang').css('display', 'none');
 		$('#member .jhou').css('display', 'none');
 		$('#member .jiang').css('display', 'none');
@@ -81,11 +90,13 @@ $(document).ready(function() {
 		$('#member .he').css('display', 'none');
 		$('#member .liu').css('display', 'none');
 		$('#member .jheng .back_button').click((event) =>{
+			$('#member #menu').css('display', 'block');
 			$('#member .jheng').css('display', 'none');
 		})
 	})
 	
 	$('#member #menu .bottom .person_six').click((event) =>{
+		$('#member #menu').css('display', 'none');
 		$('#member .jhuang').css('display', 'none');
 		$('#member .jhou').css('display', 'none');
 		$('#member .jiang').css('display', 'none');
@@ -94,11 +105,13 @@ $(document).ready(function() {
 		$('#member .he').css('display', 'block');
 		$('#member .liu').css('display', 'none');
 		$('#member .he .back_button').click((event) =>{
+			$('#member #menu').css('display', 'block');
 			$('#member .he').css('display', 'none');
 		})
 	})
 	
 	$('#member #menu .bottom .person_seven').click((event) =>{
+		$('#member #menu').css('display', 'none');
 		$('#member .jhuang').css('display', 'none');
 		$('#member .jhou').css('display', 'none');
 		$('#member .jiang').css('display', 'none');
@@ -107,6 +120,7 @@ $(document).ready(function() {
 		$('#member .he').css('display', 'none');
 		$('#member .liu').css('display', 'block');
 		$('#member .liu .back_button').click((event) =>{
+			$('#member #menu').css('display', 'block');
 			$('#member .liu').css('display', 'none');
 		})
 	})
