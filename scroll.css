@@ -10,21 +10,34 @@
 
 .scroll::-webkit-scrollbar,
 .scroll::-webkit-scrollbar-thumb {
-    width: 50pt;
+    width: 3vw;
     border-radius: 13px;
     background-clip: padding-box;
+}
+
+.scroll::-webkit-scrollbar {
     background-color: #F7FAF5;
     border: 3px solid #B3B3B3;
 }
 
 .scroll::-webkit-scrollbar-thumb {
-    border: 2px solid #fff7db;
-    background-color: #E8C954;
+    border: 4px solid #fff493;
+    background-color: #ffba24;
+}
+
+.scroll::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+.scroll::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 30px;
 }
 
 div.scroll {
     /* Adjust this to fit */
-    width: 50%;
+    width: 60%;
     padding-left: 5%;
     padding-right: 5%;
     overflow-y: scroll;
@@ -40,7 +53,7 @@ div.scroll>* {
 
 .scroll .name {
     font-family: GenRyuGothicMideum, Arial, sans-serif;
-    font-size: 70pt;
+    font-size: 3vw;
     color: #000000;
 }
 
@@ -55,26 +68,29 @@ div.scroll>* {
 }
 
 .motto-text {
-    font-size: 38pt;
+    font-size: 1.8vw;
 }
 
 .progress {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 112pt;
-    padding-top: 33pt;
-    padding-bottom: 34pt;
-    font-size: 45pt;
+    height: 5vh;
+    font-size: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
 }
 
 .progress>span {
+    margin: auto 2.5%;
     height: fit-content;
     width: fit-content;
-    line-height: 45pt;
+    line-height: 2.4vw;
 }
 
 .progressbar {
+    margin-top: auto;
+    margin-bottom: auto;
     border-radius: 13px;
     height: 100%;
     width: 60%;
@@ -89,7 +105,7 @@ div.scroll>* {
 }
 
 .back-yellow {
-    background-color: #F7D089;
+    background-color: #ffa358;
 }
 
 .back-grey {
@@ -97,23 +113,24 @@ div.scroll>* {
 }
 
 .characteristic .title {
-    line-height: 85pt;
-    font-size: 45pt;
+    line-height: 5vw;
+    font-size: 2vw;
     color: #555555;
+    margin-top: 2.5vw;
 }
 
 div .characteristic {
-    line-height: 70pt;
+    line-height: 3.5vw;
     text-align: left;
-    font-size: 40pt;
+    font-size: 1.8vw;
     color: #F7D089;
 }
 
 .words {
     position: relative;
     top: 20pt;
-    line-height: 40pt;
-    font-size: 30pt;
+    line-height: 2.5vw;
+    font-size: 1.8vw;
     background-color: rgba(0, 0, 0, 0);
     border: #F7D089 2px solid;
     border-radius: 70px;
