@@ -18,8 +18,11 @@ $(document).ready(function() {
 	$('#member .jheng').css('display', 'none');
 	$('#member .he').css('display', 'none');
 	$('#member .liu').css('display', 'none');
+
+        
 	
-	$('#member #menu .top .person_one').click((event) =>{
+	$('#member #menu .top .person_one, .member5').click((event) =>{
+                $('.member5').click();
 		$('#member #menu').animate({opacity:0}, 500, () => {
 			$('#member #menu').css('display', 'none');
 			$('#member .jhuang').css({
@@ -39,7 +42,8 @@ $(document).ready(function() {
 		});
 	});
 
-	$('#member #menu .top .person_two').click((event) =>{
+	$('#member #menu .top .person_two, .member3').click((event) =>{
+                $('.member3').click();
 		$('#member #menu').animate({opacity:0}, 500, () => {
 			$('#member #menu').css('display', 'none');
 			$('#member .jhou').css({
@@ -59,7 +63,8 @@ $(document).ready(function() {
 		});
 	});
 
-	$('#member #menu .top .person_three').click((event) =>{
+	$('#member #menu .top .person_three, .member4').click((event) =>{
+                $('.member4').click();
 		$('#member #menu').animate({opacity:0}, 500, () => {
 			$('#member #menu').css('display', 'none');
 			$('#member .jiang').css({
@@ -79,7 +84,8 @@ $(document).ready(function() {
 		});
 	});
 
-	$('#member #menu .bottom .person_four').click((event) =>{
+	$('#member #menu .bottom .person_four, .member6').click((event) =>{
+                $('.member6').click();
 		$('#member #menu').animate({opacity:0}, 500, () => {
 			$('#member #menu').css('display', 'none');
 			$('#member .syu').css({
@@ -99,7 +105,8 @@ $(document).ready(function() {
 		});
 	});
 
-	$('#member #menu .bottom .person_five').click((event) =>{
+	$('#member #menu .bottom .person_five, .member2').click((event) =>{
+                $('.member2').click();
 		$('#member #menu').animate({opacity:0}, 500, () => {
 			$('#member #menu').css('display', 'none');
 			$('#member .jheng').css({
@@ -119,7 +126,8 @@ $(document).ready(function() {
 		});
 	});
 
-	$('#member #menu .bottom .person_six').click((event) =>{
+	$('#member #menu .bottom .person_six, .member7').click((event) =>{
+                $('.member7').click();
 		$('#member #menu').animate({opacity:0}, 500, () => {
 			$('#member #menu').css('display', 'none');
 			$('#member .he').css({
@@ -139,7 +147,8 @@ $(document).ready(function() {
 		});
 	});
 
-	$('#member #menu .bottom .person_seven').click((event) =>{
+	$('#member #menu .bottom .person_seven, .member1').click((event) =>{
+                $('.member1').click();
 		$('#member #menu').animate({opacity:0}, 500, () => {
 			$('#member #menu').css('display', 'none');
 			$('#member .liu').css({
