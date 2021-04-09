@@ -15,10 +15,6 @@ body {
     src: url(./src/Medium.ttf);
 }
 
-p {
-    font-family: Gentium;
-}
-
 #member h3 {
     font-family: Medium;
     margin:10%;
