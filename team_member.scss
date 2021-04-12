@@ -1,0 +1,129 @@
+$primary-color:#F5F3E6;
+$primary-font: Medium;
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.team_member {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@font-face {
+    font-family: $primary-font;
+    src: url(./src/Medium.ttf);
+}
+
+#member h3 {
+    font-family: $primary-font;
+    margin:10%;
+}
+
+#menu{
+    background-color: $primary-color;
+    width: 100%;
+    height: 75vh;
+    max-height: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+    text-align: center;
+
+    %message-shared{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .top{
+        @extend %message-shared;
+        padding: 0 10% 0;
+    }
+
+    .bottom{
+        @extend %message-shared;
+    }
+
+    .person{
+        @extend %message-shared;
+        width: 11%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+%member-shared{
+    background-color: $primary-color;
+    width: 100%;
+    height: 75vh;
+    max-height: 65vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+}
+
+.jhuang{
+    @extend %member-shared;
+}
+.jhou{
+    @extend %member-shared;
+}
+.jiang{
+    @extend %member-shared;
+}
+.syu{
+    @extend %member-shared;
+}
+.jheng{
+    @extend %member-shared;
+}
+.he{
+    @extend %member-shared;
+}
+.liu{
+    @extend %member-shared;
+}
+
+
+.back_button{
+    width: 5%;
+    height: auto;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+}
+
+.text_personality{
+    width: 85%;
+    height: auto;
+}
+
+.pic_personality{
+    width: 100%;;
+    height: auto;
+}
+
+%image-shared{
+    max-height: 100%;  
+    max-width: 100%;
+}
+
+.back_button img{
+    @extend %image-shared;
+}
+.text_personality img{
+    @extend %image-shared;
+}
+.pic_personality img{
+    @extend %image-shared;
+}
