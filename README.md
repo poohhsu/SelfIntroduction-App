@@ -6,10 +6,10 @@ Yet another app.
 > npm / npx / pug / scss required
 
 ```
-npx pug pre/main.pug -o ./
-npx sass pre/main.sass ./main.js
-npx sass pre/scroll.sass ./scroll.js
-npx sass pre/scroll.sass ./team_member.scss
+npx pug pre/main.pug -o ./main.html
+npx sass pre/main.sass ./main.css
+npx sass pre/scroll.sass ./scroll.css
+npx sass pre/team_member.scss ./team_member.css
 coffee pre/main.coffee -o ./main.js
 ```
 
